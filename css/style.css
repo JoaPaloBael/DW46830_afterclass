@@ -54,7 +54,7 @@
     grid-template-areas: 
       "titular banana"
       "noticia banana"
-      "noticia ."
+      "noticia texto"
       "noticia ."; 
 }
 
@@ -66,6 +66,13 @@
 }
 .noticia{
     grid-area: noticia;
+}
+.texto-anibal{
+    grid-area: texto;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #main-index h1{
