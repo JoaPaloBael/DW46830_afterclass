@@ -1,8 +1,14 @@
+/*TIPOGRAFIA + VARIABLES + EXTEND */
+@import './assets/tipografia';
+@import './assets/colors';
+@import './assets/extend';
+
+
 @import './assets/reset';
 @import './sections/header';
 
 @import './sections/main-index';
 @import './sections/footer';
 
-  
-@import './assets/mediaquey';
+/*SIEMPRE AL FINAL*/
+@import './assets/mediaquery';

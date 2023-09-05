@@ -1,3 +1,13 @@
+/*TIPOGRAFIA + VARIABLES + EXTEND */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700&display=swap");
+.destaque, .aside form .enviar, .header div .nav ul li a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(197, 197, 197);
+  box-shadow: 2px 2px 2px 2px black;
+}
+
 /* https://www.periodismo.com/2023/05/08/el-desfile-de-patos-en-una-escuela-que-se-hizo-viral/ */
 * {
   margin: 0;
@@ -8,6 +18,7 @@
 .header {
   box-shadow: 0px 0 13px 0px #aaa;
   margin-bottom: 30px;
+  background-color: #f5f5f5;
 }
 .header div {
   display: flex;
@@ -38,11 +49,6 @@
   color: #a00606;
   text-decoration: none;
 }
-.header div .nav ul li a:hover {
-  text-decoration: underline;
-  font-weight: bold;
-}
-
 /* MAIN INDEX */
 #main-index {
   font-family: sans-serif;
@@ -68,6 +74,7 @@
 #main-index h1 {
   margin: 20px 0;
   font-size: 43px;
+  font-family: "Roboto Mono", monospace;
 }
 
 #main-index .categoria {
@@ -103,15 +110,12 @@
   color: white;
   padding: 15px;
 }
-
 .aside p {
   margin: 30px 0;
 }
-
-.aside .email {
+.aside form .email {
   width: 100px;
 }
-
 /*MOBILE LAST*/
 @media (max-width: 1000px) {
   #main-index {
@@ -128,6 +132,7 @@
   font-family: sans-serif;
 }
 
+/*SIEMPRE AL FINAL*/
 /*MOBILE LAST*/
 @media (max-width: 1000px) {
   #main-index {
