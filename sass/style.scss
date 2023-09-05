@@ -2,7 +2,10 @@
 @import './assets/tipografia';
 @import './assets/colors';
 @import './assets/extend';
-
+/*Solo para variables de bootstrap*/
+@import './assets/bootstrap-customizado';
+/*Bootstrap*/
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 @import './assets/reset';
 @import './sections/header';
@@ -12,3 +15,10 @@
 
 /*SIEMPRE AL FINAL*/
 @import './assets/mediaquery';
+
+
+
+/*Customización BTS 2 - pisando */
+.navbar-toggler-icon {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/4378/4378745.png');
+}
