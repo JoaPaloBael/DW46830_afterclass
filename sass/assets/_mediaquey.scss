@@ -1,0 +1,13 @@
+      /*MOBILE LAST*/
+  
+      @media (max-width: 1000px) {
+        #main-index {
+            grid-template-columns: 100%; 
+            grid-template-areas: 
+              "titular"
+              "noticia"
+              "noticia"
+              "banana"
+              "banana"; 
+        }
+    }
